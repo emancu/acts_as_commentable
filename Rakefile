@@ -3,10 +3,10 @@ require 'rake/gempackagetask'
 
 PLUGIN = "acts_as_commentable"
 GEM = "acts_as_commentable"
-GEM_VERSION = "3.0.0"
-EMAIL = "unknown@juixe.com"
-HOMEPAGE = "http://www.juixe.com/techknow/index.php/2006/06/18/acts-as-commentable-plugin/"
-SUMMARY = "Plugin/gem that provides comment functionality"
+GEM_VERSION = "0.1"
+EMAIL = "emiliano.mancuso@grid.com"
+HOMEPAGE = "http://github.com/eMancu/acts_as_commentable"
+SUMMARY = "Plugin/gem that provides comment functionality. Thanks to Cosmin Radoi, Jack Dempsey, Xelipe and Chris Eppstein"
 
 spec = Gem::Specification.new do |s|
   s.name = GEM
@@ -16,7 +16,7 @@ spec = Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc", "MIT-LICENSE"]
   s.summary = SUMMARY
   s.description = s.summary
-  s.author = 'Cosmin Radoi, Jack Dempsey, Xelipe, Chris Eppstein'
+  s.author = 'eMancu'
   s.email = EMAIL
   s.homepage = HOMEPAGE
 
