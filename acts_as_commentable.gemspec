@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{acts_as_commentable}
-  s.version = "3.0.0"
+  s.version = "0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["eMancu"]
   s.autorequire = %q{acts_as_commentable}
-  s.date = %q{2010-03-13}
+  s.date = %q{2010-06-03}
   s.description = %q{Plugin/gem that provides comment functionality.
                     Thanks to Cosmin Radoi, Jack Dempsey, Xelipe and Chris Eppstein who are the original developers of this plugin.}
   s.email = %q{emiliano.mancuso@grid.com}

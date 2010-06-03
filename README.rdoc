@@ -12,10 +12,10 @@ Install
    * To install as a plugin
 
    ** Rails 3:
-    script/plugin install http://github.com/eMancu/acts_as_commentable.git
+    script/plugin install git://github.com/eMancu/acts_as_commentable.git
 
    ** Rails 2:
-    script/plugin install http://github.com/eMancu/acts_as_commentable.git -r 2.x
+    script/plugin install git://github.com/eMancu/acts_as_commentable.git -r 2.x
 
 
    * To install as a gem
