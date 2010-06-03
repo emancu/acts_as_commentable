@@ -12,11 +12,10 @@ Install
    * To install as a plugin
 
    ** Rails 3:
-    script/plugin install http://github.com/jackdempsey/acts_as_commentable.git
+    script/plugin install http://github.com/eMancu/acts_as_commentable.git
 
    ** Rails 2:
-    script/plugin install http://github.com/jackdempsey/acts_as_commentable.git -r 2.x
-
+    script/plugin install http://github.com/eMancu/acts_as_commentable.git -r 2.x
 
 
    * To install as a gem
@@ -72,11 +71,6 @@ Install
  # model = Model.find(1)
  # model.comments.get(0).commentable == model
 
-== Credits
-
-Xelipe - This plugin is heavily influenced by Acts As Taggable.
-
 == More
 
-http://www.juixe.com/techknow/index.php/2006/06/18/acts-as-commentable-plugin/
-http://www.juixe.com/projects/acts_as_commentable
+http://www.juixe.com/techknow/index.php/2006/06/18/acts-as-commentable-plugin
