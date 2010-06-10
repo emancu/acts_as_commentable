@@ -25,7 +25,7 @@ module Juixe
           author_comment = ActiveRecord::Base.send(:class_name_of_active_record_descendant, self).to_s
 
           Comment.find(:all,
-            :conditions => ["author_id = ? and author_type = ?", obj.id, author_comment],
+            :conditions => ["author_id = ? and author_type = ?", obj.id, author_comment.class.name],
             :order => "created_at DESC"
           )
         end
